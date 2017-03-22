@@ -1,3 +1,6 @@
+#https://quizlet.com/197426976/linear-models-and-r-flash-cards/?new
+#https://www.youtube.com/watch?v=P-WYkSZp9lY 
+
 data <-read.csv("GPA By STRM MAJ LEVEL.csv")
 str(data)
 data$STRM <- as.factor(data$STRM)
